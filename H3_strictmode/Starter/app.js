@@ -21,3 +21,6 @@ logNewPerson();
 
 // Why not use strict all the time? -- it's an extra feature, can't rely on 100%, but can still be useful. // mozilla developer website has a description at : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode //
 
+
+// OPEN SOURCE EDUCATION // This is a good way to learn more about JS // open source code and study it -- go to GitHub to find the source code, or the website of that library //
+
