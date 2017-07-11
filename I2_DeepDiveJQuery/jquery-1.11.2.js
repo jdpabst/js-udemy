@@ -12,10 +12,10 @@
  * Date: 2014-12-17T15:27Z
  */
 
-(function( global, factory ) {
+(function( global, factory ) { // immediately invoked funtion expression | takes 2 parameters //
 
 	if ( typeof module === "object" && typeof module.exports === "object" ) {
-		// For CommonJS and CommonJS-like environments where a proper window is present,
+		// For CommonJS and CommonJS-like environments where a proper window is present, (what is the environment jQuery is living in?)
 		// execute the factory and get jQuery
 		// For environments that do not inherently posses a window with a document
 		// (such as Node.js), expose a jQuery-making factory as module.exports
@@ -35,7 +35,7 @@
 	}
 
 // Pass this if window is not defined yet
-}(typeof window !== "undefined" ? window : this, function( window, noGlobal ) {
+}(typeof window !== "undefined" ? window : this, function( window, noGlobal ) { // <-- Ternary operator //
 
 // Can't do this because several apps including ASP.NET trace
 // the stack via arguments.caller.callee and Firefox dies if
@@ -86,7 +86,7 @@ var
 		return letter.toUpperCase();
 	};
 
-jQuery.fn = jQuery.prototype = {
+jQuery.fn = jQuery.prototype = { // fn = function prototype alias //
 	// The current version of jQuery being used
 	jquery: version,
 
