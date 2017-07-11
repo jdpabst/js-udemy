@@ -1,4 +1,4 @@
-;(function(global, $) {
+;(function(global, $) { /// ; --> assures it will run fine if code rendered above it doesn't have good semi-color usage //
     
     // 'new' an object
     var Greetr = function(firstName, lastName, language) {
